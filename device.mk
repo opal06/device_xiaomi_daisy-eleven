@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -222,10 +226,6 @@ PRODUCT_PACKAGES += \
 
 # Dex
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
