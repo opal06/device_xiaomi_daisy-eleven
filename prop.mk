@@ -47,6 +47,10 @@ persist.vendor.qcom.bluetooth.soc=pronto \
 ro.bluetooth.a2dp_offload.supported=false \
 vendor.qcom.bluetooth.soc=pronto
 
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.kernel.ebpf.supported=true
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 vidc.enc.dcvs.extra-buff-count=2 \
