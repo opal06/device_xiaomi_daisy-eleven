@@ -133,7 +133,8 @@ vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
 debug.hwui.renderer=skiagl \
-video.accelerate.hw=1
+video.accelerate.hw=1 \
+vendor.gralloc.disable_ahardware_buffer=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
