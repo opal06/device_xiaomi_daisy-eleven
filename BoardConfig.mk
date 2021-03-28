@@ -169,6 +169,7 @@ TARGET_PER_MGR_ENABLED := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wakeup_gesture"
 TARGET_PROVIDES_POWERHAL := true
+BOARD_POWER_CUSTOM_BOARD_LIB := libpower_8953
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
