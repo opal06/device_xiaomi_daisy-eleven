@@ -15,5 +15,17 @@
     "repository"  : "mvaisakh/gcc-arm64", 
     "target_path"  : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf", 
     "branch"  : "gcc-master"
+  },
+  {
+    "repository": "Jabiyeff/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8996-daisy/display",
+    "branch": "caf-msm8996-r",
+    "remote": "github"
+  },
+  {
+    "repository": "Jabiyeff/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8996-daisy/media",
+    "branch": "caf-msm8996-r",
+    "remote": "github"
   }
 ]
