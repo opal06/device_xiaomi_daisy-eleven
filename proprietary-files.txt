@@ -688,7 +688,7 @@ vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_iface_modules.so|a22ced4dc582d5d9595036109c3337611d8e5b01|de3971fab36d116db31177e65f805408bc577edc
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
