@@ -1,11 +1,13 @@
 [
   {
+    "remote"  : "github", 
     "repository" : "Couchpotato-sauce/kernel_xiaomi_daisy",
     "target_path" : "kernel/xiaomi/msm8953",
     "branch" : "eleven"
   },
   {
-    "repository" : "LinkBoi00/vendor_xiaomi_daisy",
+    "remote"  : "github", 
+    "repository" : "LinkBoi00-Development/vendor_xiaomi_daisy",
     "target_path" : "vendor/xiaomi/daisy",
     "branch" : "eleven"
   },
