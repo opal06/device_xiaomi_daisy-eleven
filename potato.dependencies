@@ -1,7 +1,7 @@
 [
   {
     "remote"  : "github", 
-    "repository" : "Couchpotato-sauce/kernel_xiaomi_daisy",
+    "repository" : "LinkBoi00-Development/kernel_xiaomi_msm8953",
     "target_path" : "kernel/xiaomi/msm8953",
     "branch" : "eleven"
   },
@@ -12,8 +12,8 @@
     "branch" : "eleven"
   },
     "remote"  : "github", 
-    "repository"  : "kdrag0n/proton-clang", 
-    "target_path"  : "prebuilts/clang/host/linux-x86/clang-12.0", 
-    "branch"  : "master"
+    "repository"  : "mvaisakh/gcc-arm64", 
+    "target_path"  : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf", 
+    "branch"  : "gcc-master"
   }
 ]
