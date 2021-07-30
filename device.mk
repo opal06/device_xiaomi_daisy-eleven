@@ -209,7 +209,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    libvulkan
 
 # Dex
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
