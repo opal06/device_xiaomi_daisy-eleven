@@ -289,3 +289,7 @@ wifi.interface=wlan0
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Updater app [POSP Specific]
+PRODUCT_PROPERTY_OVERRIDES += \
+potato.updater.uri=https://raw.githubusercontent.com/LinkBoi00-Development/otaupdater/master/1.json
