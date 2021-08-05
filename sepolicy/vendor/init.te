@@ -12,3 +12,4 @@ allow init sysfs_leds:file r_file_perms;
 allow init sysfs_leds:lnk_file r_file_perms;
 allow init sysfs_kgsl:file create_file_perms;
 allow init sysfs_kgsl:lnk_file r_file_perms;
+allow init socket_device:sock_file { create };
