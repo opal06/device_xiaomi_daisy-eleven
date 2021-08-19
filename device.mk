@@ -244,6 +244,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fakelogprint
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.daisy
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
