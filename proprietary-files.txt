@@ -91,9 +91,11 @@ lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead0
 lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so|3a935f5bdb20554478fc49a163a187afcf9b9b6b
 vendor/etc/diracmobile.config|b861d128e40bb8d259f5d21067bd437e2d7a68e6
 
-# Audiosphere
-lib/soundfx/libasphere.so
-lib64/soundfx/libasphere.so
+# Audiosphere - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+etc/permissions/audiosphere.xml
+framework/audiosphere.jar
+vendor/lib/soundfx/libasphere.so
+vendor/lib64/soundfx/libasphere.so
 
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
