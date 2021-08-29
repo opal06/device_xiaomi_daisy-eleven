@@ -1,22 +1,37 @@
 # Camera blobs from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys, unless pinned
 
-# ADSP - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
-vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
-vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
-vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
-vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
-vendor/lib/libfastcvopt.so|2df00c3827fe1db322084cb3935241f17d1532f4
-vendor/lib/libmdsprpc.so|642f74bfec1098397c7ee025e0744badbf14fc39
-vendor/lib/libsdsprpc.so|2963c73745b8b1ccab64260ce93e3679c7c66113
-vendor/lib64/libadsprpc.so|3dd28423f6b786584a1c80b2cdb6e22a1c00b0ae
-vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
-vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
-vendor/lib64/libfastcvopt.so|f5e25aa055a57e23530b858bf7dd204a6009effc
-vendor/lib64/libmdsprpc.so|38de6a53d3c2ff60a253c7c6a0d3b46962e8e194
-vendor/lib64/libsdsprpc.so|1e89a33bae491abe4c81bb77c8fabf59bff4b853
+# ADSP - from LA.UM.9.6.2.r1-03600-89xx.0
+system_ext/lib/libadsprpc_system.so|88d2ad611c777a511d2d12a0fe687dd97e9ea2f6
+system_ext/lib/libmdsprpc_system.so|45fd3471a9cd01333b3b412a7c78a7437d5ad965
+system_ext/lib/libsdsprpc_system.so|10bbdb7f919c42b0dcee3d6aec7a09037c821ee3
+system_ext/lib/vendor.qti.hardware.dsp@1.0.so|118bdc98a5a564a749245f2f1b11cd53a9cd4c68
+system_ext/lib64/libadsprpc_system.so|2fa54bbbdae23d32c0a7584abfde39cf8a4f0b28
+system_ext/lib64/libmdsprpc_system.so|0a71e1099756d47eaf8fe420ad5e50c56d08d3dd
+system_ext/lib64/libsdsprpc_system.so|fd26f67927927327279044b86ebe7197b0377979
+system_ext/lib64/vendor.qti.hardware.dsp@1.0.so|5f3519b56355765d0a80195d638d5ca460f0ae36
+vendor/bin/adsprpcd|b736b00857d64e74a3b9be887215124d186f95d5
+vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/libadsprpc.so|a8dcd5087ab8f2e573cf4e5838b807b66c3ec304
+vendor/lib/libadsp_default_listener.so|d34ee56137899b914b70d1933d6bdcabde8d8220
+vendor/lib/libfastcvadsp_stub.so|70772d0bc39617430e27a21f89fccd93cc757185
+vendor/lib/libfastcvopt.so|c0c70efbb7ca1cfeea3dedec9f9d911c39486fce
+vendor/lib/libmdsprpc.so|bcd1d3ca6efac76b51fb3461b3574403ba6d46dd
+vendor/lib/libsdsprpc.so|ba6c25f039af4e7ab9d69d8bba694f0c8fa54c72
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|3326828ea7f6f8139429d2cd0379e80f5ca5178d
+vendor/lib64/libadsprpc.so|9c72ce03841cb6011ecdd78c894ee5e1c60a5b6d
+vendor/lib64/libadsp_default_listener.so|aa3b51b544032a250ab02687c0200152f80a23dd
+vendor/lib64/libfastcvadsp_stub.so|f4535845bc4f40e3cb8e79d090e5ed87b0acfbb0
+vendor/lib64/libfastcvopt.so|f98fea81849fe4995f0e266534bdb04006717fc2
+vendor/lib64/libmdsprpc.so|f53a3e5486047e155728b9583dc85aaa0dab3801
+vendor/lib64/libsdsprpc.so|6fc471f5c49a94bfe06bc957c08062d310f841a9
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|95b26a4a29f1443ec389be6ca80151a0aec96b36
 
-# ADSP modules - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+# ADSP modules - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/lib/rfsa/adsp/dirac_resource.dar|d9b3693eab8c520ef859236b8235752188b7cba0
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|6a1d6ee55cc65d0f12f6a9bfd04823b46d2d6a24
 vendor/lib/rfsa/adsp/libadsp_hvx_stats.so|2f6abffe644ed918ff1a7e0e330f8e9c32add72c
@@ -27,8 +42,6 @@ vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 
 # Audio ACDB - from Daisy QKQ1.191002.002-V11.0.5.0.QDLMIXM
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -49,33 +62,33 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 
-# Audio - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+# Audio - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/audioflacapp|a8ae278497715aa53f6fb86d5f5af225da0fc5b0
-vendor/lib/libacdb-fts.so|9fb9fe8f1e22e38e41f1517b8f206a50bbb24419
-vendor/lib/libacdbloader.so|f33941720463b3c8215fc644b7d638c6d8ab74c7
-vendor/lib/libacdbrtac.so|f997dfef5413873af88bd8636a501401e9ea9631
-vendor/lib/libadiertac.so|6cfa3c70f01617a944ed2d8512189400ccdec21e
-vendor/lib/libadm.so|b373d5cb6e4c6e081f1d206f6d9538339f330fda
-vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
-vendor/lib/libaudioalsa.so|1455df26b622c518c04d7f54746683ed96aaa74f
+vendor/lib/libacdb-fts.so|fee2b1f0b93c28f5ef0a4d65736cca01c4275975
+vendor/lib/libacdbloader.so|2c64746b9862a61e2d6a9ddc20307d67c7e638dc
+vendor/lib/libacdbrtac.so|50f9c46c1ed2758338db567b00e8eee1889ab21a
+vendor/lib/libadiertac.so|5c80bbb7ae8fb329ec4c2518c4e336b010bd57dc
+vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
+vendor/lib/libaudcal.so|1c9598d084940495067348a68c5ff85ded0a52bf
+vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
 vendor/lib/libaudioconfigstore.so|5b4d7d4f6840f65c1c630578fb3611d9ce47e268
 vendor/lib/libaudioparsers.so|4b980c4392b6e800fb23213a0daaa83b35c04051
 -vendor/lib/libaudio_log_utils.so|7fb2bb0abd10ca763ae5d079a8070e9d3d493bf9
-vendor/lib/libdrc.so|55fc13d205ce3199de2cf1f9c1dab479909c15be
-vendor/lib/libqtigef.so|fbedb509c61ff1a7d6e9c4a099af346ca781430a
-vendor/lib/libsurround_3mic_proc.so|d8c1d2cb7d598eee79ccfe5b7ec83a185c8fef6c
+vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+vendor/lib/libqtigef.so|80fb4a524d9d11c6e94c337ea263256f816f1f39
+vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
 vendor/lib/libtinycompress_vendor.so|4991b78d9ed12b828ceeaf61e5cde6328eb944b9
 vendor/lib/soundfx/libaudiopreprocessing.so|948f18c576254144f48e9051be28e7d23f8562cc
-vendor/lib64/libacdb-fts.so|662467af62f9607abfd5acb532dfbf69240bcc70
-vendor/lib64/libacdbloader.so|7c49e7d95090e20f6198f03959323359e4b2ed19
-vendor/lib64/libacdbrtac.so|54d114f280eb99f4aa73890c5e9cfbb5b55eb813
-vendor/lib64/libadiertac.so|5b511a0312721e9e6ff27fae9a3f035cf66ac6f7
-vendor/lib64/libaudcal.so|a2788d71d00be193e9704edefc1b363cbc847942
-vendor/lib64/libaudioalsa.so|0a8f0746cc8fd381d001f52c7eb4460951802ac4
+vendor/lib64/libacdb-fts.so|ae8275322050d1bd5cebf2cee15864fcf3c87fdf
+vendor/lib64/libacdbloader.so|39a24dfed0d8d6aaa41fd924b373fd226c944538
+vendor/lib64/libacdbrtac.so|547a42e2ed54d13e780fab26134ec0fd90054d4c
+vendor/lib64/libadiertac.so|98a8c2702d4e203689e4a80c69c4b1cf93af1567
+vendor/lib64/libaudcal.so|09f5fe513d72664f8fa1ebd7f17ce676e8741346
+vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
 vendor/lib64/libaudioconfigstore.so|a862e94f4fc75ce3c3274f219be8c128fe58a822
 vendor/lib64/libaudioparsers.so|67f6836de4391c33cc030faa5c885ab250324291
 -vendor/lib64/libaudio_log_utils.so|3670ed70e68b209f67852cad81b74d2dda2de3cd
-vendor/lib64/libqtigef.so|70df5848c061154e4c33b147e06d4979e2391b5e
+vendor/lib64/libqtigef.so|9108e3248c066102d7c57dd79d3e960647a8c84d
 vendor/lib64/libtinycompress.so|8d670f7c3079e96b5a36945e95082104876dd64a
 vendor/lib64/libtinycompress_vendor.so|74909f72ee8ebb01c2f4ef717e902055272a5917
 vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755121f49
@@ -755,16 +768,16 @@ vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 
-# CDSP - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
-vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
-vendor/lib/libcdsprpc.so|ad00bd9a9f8e43403fcaf3101cce2b452a636032
-vendor/lib/libcdsp_default_listener.so|5c035d22a100501d090c15786ac720eecec15624
-vendor/lib/libfastrpc_utf_stub.so|c9b36aa0e4791536f1ae4e4d90820c77fc06a5bd
-vendor/lib/libsysmon_cdsp_skel.so|c81311a5c24b131c7b00c137705254e57f429368
-vendor/lib64/libcdsprpc.so|cdd9343c8b732a082cb008fedc269d4e4d7e5929
-vendor/lib64/libcdsp_default_listener.so|94792d75a16534ae766aba9c0d4a4a62782eac6d
-vendor/lib64/libfastrpc_utf_stub.so|d19ff5b0ef7506a5d28f5825547dcf235c2f8f96
-vendor/lib64/libsysmon_cdsp_skel.so|f3cb20891b795036134a659cd530287fe8c84369
+# CDSP
+vendor/bin/cdsprpcd
+vendor/lib/libcdsprpc.so
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libfastrpc_utf_stub.so
+vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libfastrpc_utf_stub.so
+vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE - from LA.UM.8.6.2.r1-08400-89xx.0
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
