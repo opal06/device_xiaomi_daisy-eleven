@@ -35,9 +35,9 @@
     "remote": "github"
   },
   {
-    "repository": "crdroidandroid/android_hardware_qcom_audio",
+    "repository": "Jabiyeff-Project/android_hardware_qcom_audio",
     "target_path": "hardware/qcom-caf/msm8996-daisy/audio",
-    "branch": "11.0-caf-msm8996",
+    "branch": "11.0",
     "remote": "github"
   }
 ]
