@@ -925,14 +925,6 @@ vendor/lib64/libsecureui.so|fc29832bebb89e7edb8cb46d45ee5cb8fdcdf3d8
 vendor/lib64/libsecureui_svcsock.so|7441cfd83ed51ab13d564f81bc3744c488f08fe2
 vendor/lib64/libssd.so|bcb7c4213115f2377e0d30dd1a05cae5e88212e4
 
-# ESE-Powermanager - from LA.UM.8.6.2.r1-07600-89xx.0
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|a5b8d74b2374ea757c90bbbe450e34533fb6c137
-vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
-vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|aa3984ea0f3e5a4062fc95e261fe21ddc9e1f670
-vendor/lib/vendor.qti.esepowermanager@1.0.so|4182f556a9c30900231505a53afc04ec13afe388
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|34206c519a4ccd08545921d68db74b22ab3a0a93
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|b5b39c4f3aedc09bced70f0348980e3eccd71fca
-
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -1148,20 +1140,6 @@ vendor/etc/perf/perfboostsconfig.xml|cd57eaf1a8385ecf34b169835d6148df39e2f55e
 vendor/etc/perf/perfconfigstore.xml|de7a673eca27fb44b7dcd34c60d21f7ffbd2b9d8
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
-
-# Perf IOP - from LA.UM.9.6.2.r1-02800-89xx.0
-vendor/lib/libqti-iopd-client.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-system_ext/lib/libqti-iopd-client_system.so
-system_ext/lib/libqti_performance.so
-system_ext/lib/vendor.qti.hardware.iop@2.0.so
-system_ext/lib64/libqti-iopd-client_system.so
-system_ext/lib64/libqti_performance.so
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so
 
 # Peripheral manager - from LA.UM.8.6.2.r1-07100-89xx.0
 vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd
