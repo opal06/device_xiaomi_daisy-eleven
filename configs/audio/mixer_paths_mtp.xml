@@ -273,7 +273,7 @@
     <!-- ADSP testfwk end-->
 
     <path name="bt-sco-wb-samplerate">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
     </path>
 
     <!-- These are audio route (FE to BE) specific mixer settings -->
@@ -696,7 +696,7 @@
     </path>
 
     <path name="audio-record-compress bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="audio-record-compress bt-sco" />
     </path>
 
@@ -713,7 +713,7 @@
     </path>
 
     <path name="low-latency-record bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="low-latency-record bt-sco" />
     </path>
 
@@ -816,7 +816,7 @@
     </path>
 
     <path name="vowlan-call bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="vowlan-call bt-sco" />
     </path>
 
@@ -891,7 +891,7 @@
     </path>
 
     <path name="hfp-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="hfp-sco" />
     </path>
 
@@ -1281,6 +1281,8 @@
     <path name="handset-mic">
         <path name="adc1" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
+        <ctl name="DEC1 Volume" value="96" />
+        <ctl name="DEC2 Volume" value="96" />
     </path>
 
     <path name="headphones">
@@ -1379,6 +1381,11 @@
         <path name="headphones" />
     </path>
 
+    <path name="voice-speaker-and-voice-headphones">
+        <path name="wsa-voice-speaker" />
+        <path name="voice-headphones" />
+    </path>
+
     <path name="voice-headset-mic">
         <path name="headset-mic" />
     </path>
@@ -1467,12 +1474,15 @@
     </path>
 
     <path name="voice-speaker-dmic-ef">
+    <!-- Todo: Return to stock value if you find a proper fix for this
         <ctl name="MI2S_TX Channels" value="Two" />
 		<ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC1 MUX" value="ADC2" />
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="ADC1 Volume" value="6" />
         <ctl name="DEC2 MUX" value="ADC1" />
+    -->
+        <path name="speaker-dmic-endfire" />
     </path>
 
     <path name="voice-rec-dmic-ef">
@@ -1485,6 +1495,8 @@
 
     <path name="handset-stereo-dmic-ef">
         <path name="speaker-dmic-endfire" />
+        <ctl name="DEC1 Volume" value="96" />
+        <ctl name="DEC2 Volume" value="96" />
     </path>
 
     <path name="speaker-stereo-dmic-ef">

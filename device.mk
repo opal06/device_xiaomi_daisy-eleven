@@ -94,10 +94,11 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@5.0-impl \
+    android.hardware.audio@6.0-impl \
     android.hardware.audio.service \
-    android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaudioroute \
@@ -110,9 +111,7 @@ PRODUCT_PACKAGES += \
 
 # A2DP
 PRODUCT_PACKAGES += \
-  audio.a2dp.default \
-  android.hardware.bluetooth.a2dp@1.0-impl \
-  android.hardware.bluetooth.a2dp@1.0-service
+  audio.a2dp.default
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -244,6 +243,10 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     fakelogprint
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.daisy
 
 # GPS
 PRODUCT_PACKAGES += \
