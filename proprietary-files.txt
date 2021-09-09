@@ -1127,7 +1127,7 @@ vendor/lib64/libqti-util.so
 
 # Perf Configs
 vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml|3a17166161061067d436b1bb0702904dfc9fca20|f635bf4a1114d804eda2da08d1d279204447dd5f
+vendor/etc/perf/perfboostsconfig.xml|3a17166161061067d436b1bb0702904dfc9fca20|a448a0643777baa6fa7cd0150f9a4dd0b99dbab3
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
