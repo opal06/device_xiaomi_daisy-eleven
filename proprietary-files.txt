@@ -1136,7 +1136,7 @@ vendor/lib/libqti-utils.so|941c03fd2b1ff136a21239471462b036255b451c
 
 # Perf Configs - from LA.UM.9.6.2.r1-02800-89xx.0
 vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
-vendor/etc/perf/perfboostsconfig.xml|cd57eaf1a8385ecf34b169835d6148df39e2f55e
+vendor/etc/perf/perfboostsconfig.xml|cd57eaf1a8385ecf34b169835d6148df39e2f55e|42200726b5d64f1aafad75fb50e52cccc4cbdef4
 vendor/etc/perf/perfconfigstore.xml|de7a673eca27fb44b7dcd34c60d21f7ffbd2b9d8
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
