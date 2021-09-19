@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.camera;
+package org.lineageos.settings.dirac;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class CameraActivity extends PreferenceActivity {
+public class DiracActivity extends PreferenceActivity {
 
-    private static final String TAG_CAMERA = "camera";
+    private static final String TAG_DIRAC = "dirac";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         getFragmentManager().beginTransaction().replace(android.R.id.content,
-                new CameraSettingsFragment(), TAG_CAMERA).commit();
+                new DiracSettingsFragment(), TAG_DIRAC).commit();
     }
 }

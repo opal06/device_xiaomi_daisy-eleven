@@ -93,10 +93,10 @@ vendor/lib64/libtinycompress.so|8d670f7c3079e96b5a36945e95082104876dd64a
 vendor/lib64/libtinycompress_vendor.so|74909f72ee8ebb01c2f4ef717e902055272a5917
 vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755121f49
 
-# Audio dirac - from mido-user 7.0 NRD90M V11.0.2.0.NCFCNXM release-keys
+# Audio dirac - from mido-user 7.0 NRD90M V11.0.2.0.NCFMIXM release-keys
 lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so|3a935f5bdb20554478fc49a163a187afcf9b9b6b
-vendor/etc/diracmobile.config|b861d128e40bb8d259f5d21067bd437e2d7a68e6
+lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
 # Audiosphere - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 etc/permissions/audiosphere.xml
@@ -1110,27 +1110,36 @@ vendor/lib64/libvpplibrary.so|592e8d104185ab798e9730f510bdefb36323ad0a
 vendor/lib/libwms.so|577d673e8eb38ccf33bd2d70115ad78b695e6ac1
 vendor/lib64/libwms.so|dde4bd567dae3802e676144af99fdd4132732897
 
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
-vendor/bin/msm_irqbalance
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
-vendor/lib/libperfconfig.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib64/libperfconfig.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
+# Perf - from LA.UM.9.6.2.r1-02800-89xx.0
+system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
+system_ext/lib/libqti-perfd-client_system.so|3c5c40577be60a47ca82fd6d8275dfc93747e663
+system_ext/lib/libqti-util_system.so|9c2e79c7e18964f50b81e3304f3d465809dac21b
+system_ext/lib/libqti_performance.so|23ac6a73d51d9a9a5c4e952d0d5cb44441e9df8b
+system_ext/lib64/libqti-perfd-client_system.so|613cd6830709dcb997600ef6c50900f87ed52285
+system_ext/lib64/libqti-util_system.so|827be431fdb97cfe3c07f17a9d944d597001fc27
+system_ext/lib64/libqti_performance.so|49ffda3e601d39d13755aef0839617fa6bbf5306
+vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|6b8f077dc724a202f3fc91c0255f88ad45cbdb62
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/lib64/libperfconfig.so|082055646d2fffcf0120d23ca152d56c903ebd41
+vendor/lib64/libperfgluelayer.so|77c14d1868b52f759f122441b5df7e5fe1e278e1
+vendor/lib64/libqti-perfd.so|2a30ad97973e17694b897c09b5b293c96cbcbab0
+vendor/lib64/libqti-perfd-client.so|d6502c16ab4dd7642641b6a8cbb061847ff5cb2d
+vendor/lib64/libqti-util.so|834cc98315887e57a5f229f9ee1a0d20d0d8f4c3
+vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
+vendor/lib/libperfconfig.so|4783a38dd417c9bd9c8ed2257f7ea071870f4089
+vendor/lib/libperfgluelayer.so|ceade90b8dad30fa03c19aafb0336b919cdd0735
+vendor/lib/libqti-perfd.so|c5515fdfe11d32f0639dbfb6fa17f22571ff514a
+vendor/lib/libqti-perfd-client.so|4fec2515f09cf18704e2501da071c7a28d4a61c7
+vendor/lib/libqti-util.so|b90cf5d6dab54445906fd94447d6d624586865ed
+vendor/lib/libqti-utils.so|941c03fd2b1ff136a21239471462b036255b451c
 
-# Perf Configs
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml|3a17166161061067d436b1bb0702904dfc9fca20|c3107c7f42ea00b59f3afaf5eedfb89e0f45ccc0
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
+# Perf Configs - from LA.UM.9.6.2.r1-02800-89xx.0
+vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
+vendor/etc/perf/perfboostsconfig.xml|cd57eaf1a8385ecf34b169835d6148df39e2f55e|57beaa1232e8e96b50b1f88370632d5778792d2c
+vendor/etc/perf/perfconfigstore.xml|de7a673eca27fb44b7dcd34c60d21f7ffbd2b9d8
+vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
+vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
 
 # Peripheral manager - from LA.UM.8.6.2.r1-07100-89xx.0
 vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd

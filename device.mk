@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -221,10 +225,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
-
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # Dex
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
@@ -360,8 +360,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power-service-qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
